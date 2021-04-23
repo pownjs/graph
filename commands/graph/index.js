@@ -1,6 +1,6 @@
 exports.yargs = {
     command: 'graph <command>',
-    describe: 'Target graph',
+    describe: 'Graph manipulation toolkit',
 
     builder: (yargs) => {
         yargs.command(require('./sub/template').yargs)
