@@ -8,7 +8,7 @@
 
 # Graph
 
-Graph is a library and utility to work with graphs. It powers other tools such as PownJS [Graph](https://github.com/pownjs/recon).
+Graph is a library and a command-line utility for the PownJS toolkit, that works with graphs. It can be used stand-alone, in script or in other tools which require graph-based data model. It powers other tools such as PownJS [Recon](https://github.com/pownjs/recon).
 
 ## Credits
 
@@ -22,7 +22,7 @@ This tool is part of [secapps.com](https://secapps.com) open-source initiative.
   https://secapps.com
 ```
 
-> **NB**: Graph is the result of an almost direct copy of SecApps' excellent [Graph](https://recon.secapps.com) tool.
+> **NB**: Graph is the result of an almost direct copy of SecApps' excellent [Recon](https://recon.secapps.com) tool.
 
 ## Quickstart
 
