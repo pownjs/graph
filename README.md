@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Release](https://img.shields.io/github/release/projectdiscovery/naabu)](https://github.com/projectdiscovery/naabu/releases)
+[![GitHub Release](https://img.shields.io/github/release/pownjs/graph)](https://github.com/pownjs/graph/releases)
 [![Follow on Twitter](https://img.shields.io/twitter/follow/pownjs.svg?logo=twitter)](https://twitter.com/pownjs)
 [![NPM](https://img.shields.io/npm/v/@pown/graph.svg)](https://www.npmjs.com/package/@pown/graph)
 [![Fury](https://img.shields.io/badge/version-2x%20Fury-red.svg)](https://github.com/pownjs/lobby)
