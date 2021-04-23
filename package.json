@@ -1,0 +1,61 @@
+{
+  "name": "@pown/graph",
+  "version": "2.0.0",
+  "description": "Pownage guaranteed",
+  "main": "lib/index.js",
+  "bin": {},
+  "scripts": {
+    "usage": "POWN_ROOT=. pown-cli graph --help",
+    "graph": "POWN_ROOT=. pown-cli graph",
+    "build": "true",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pownjs/pown-graph.git"
+  },
+  "keywords": [
+    "exploit",
+    "framework"
+  ],
+  "author": "pdp <pdp@gnucitizen.org>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pownjs/pown-graph/issues"
+  },
+  "homepage": "https://github.com/pownjs/pown-graph#readme",
+  "devDependencies": {
+    "@pown/cli": "^2.30.0",
+    "@pown/toolchain": "^2.1.0"
+  },
+  "dependencies": {
+    "@pown/engine": "^2.5.6",
+    "@pown/file": "^2.0.0",
+    "cytoscape": "^3.18.2",
+    "cytoscape-dagre": "^2.3.2",
+    "cytoscape-euler": "^1.2.2",
+    "cytoscape-klay": "^3.1.4",
+    "deepmerge": "^4.2.2",
+    "js-yaml": "^4.1.0",
+    "jsonpath": "^1.1.1",
+    "stream-chain": "^2.2.4",
+    "stream-csv-as-json": "^1.0.4",
+    "stream-json": "^1.7.1"
+  },
+  "pown": {
+    "commands": [
+      "commands/graph"
+    ]
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "extends": "./.babelrc"
+        }
+      ]
+    ]
+  }
+}
