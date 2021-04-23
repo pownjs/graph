@@ -65,7 +65,7 @@ $ POWN_ROOT=. pown graph
 ```
 pown-cli graph <command>
 
-Target graph
+Graph manipulation toolkit
 
 Commands:
   pown-cli graph template <command>             Graph template commands  [aliases: p, templates]
