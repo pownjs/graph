@@ -26,11 +26,11 @@
   },
   "homepage": "https://github.com/pownjs/pown-graph#readme",
   "devDependencies": {
-    "@pown/cli": "^2.30.0",
+    "@pown/cli": "^2.31.1",
     "@pown/toolchain": "^2.1.0"
   },
   "dependencies": {
-    "@pown/engine": "^2.5.6",
+    "@pown/engine": "^2.5.7",
     "@pown/file": "^2.0.0",
     "cytoscape": "^3.18.2",
     "cytoscape-dagre": "^2.3.2",
